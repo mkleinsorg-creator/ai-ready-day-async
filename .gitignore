@@ -1,0 +1,29 @@
+# Node
+node_modules/
+*.log
+.npm
+.DS_Store
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Build
+.next/
+dist/
+build/
+out/
+
+# User-specific (sollten nicht im Repo landen)
+.mcp.json
+projects/

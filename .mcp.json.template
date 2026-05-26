@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/<DEIN_USER>/ai-ready-day-async"
+      ]
+    },
+    "asana": {
+      "type": "sse",
+      "url": "https://asana-mcp-server.asana-enterprise-account.workers.dev/sse"
+    }
+  }
+}
