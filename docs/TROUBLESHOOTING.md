@@ -127,6 +127,39 @@ Du solltest in `~/ai-ready-day-async/projects/<dein-projekt>` sein.
 Die JSON-Datei muss valide sein. Lass Claude sie überprüfen:
 *"Validier bitte die workflow.json und sag mir, wo der Fehler ist."*
 
+### n8n: "Der Workflow läuft, aber das Ergebnis ist nicht das, was ich wollte"
+
+Völlig normal — das ist der dritte oder vierte Iterations-Schritt. Mach so:
+
+1. Geh in n8n auf den Node, der falsch läuft → klick ihn an → Output anschauen
+2. Copy & Paste die Fehlermeldung oder den ungewollten Output in Claude
+3. Sag: *"Schau mal, das ist rausgekommen — ich wollte aber Y. Was muss geändert werden?"*
+4. Claude gibt eine korrigierte JSON-Version
+5. Re-importieren (alten Workflow vorher in n8n löschen oder umbenennen)
+
+Das kann **mehrere Runden dauern**. Das ist normal bei der Community-Edition. Du machst nichts falsch.
+
+### n8n: "Ich verstehe die Fehlermeldung nicht"
+
+Kopier sie EINS-ZU-EINS in Claude. Sag: *"Erklär mir bitte ganz langsam, was diese Fehlermeldung bedeutet und wie ich sie fixen kann."*
+
+Wahrscheinlich liegt's an einem von drei Sachen:
+- **Credentials fehlen** — du musst noch einen Token in n8n hinterlegen
+- **Variable/Expression nicht korrekt** — der Platzhalter in geschweiften Klammern matched nicht
+- **Datenstruktur unerwartet** — der vorherige Node liefert was anderes als erwartet
+
+### n8n: "Ich bin frustriert nach der dritten Iteration"
+
+Das ist absolut normal. Bitte glaub uns das.
+
+**Mach jetzt:**
+1. Speicher den aktuellen Stand (Workflow in n8n liegt eh dort)
+2. Steh auf, 15 Min Pause, Kaffee, frische Luft
+3. Komm zurück und sag Claude: *"Lass uns nochmal langsam von vorn anschauen, wo wir stehen."*
+4. Wenn nach Pause weiter nichts geht: Slack-DM an Max mit dem Fehler-Screenshot
+
+**Du baust gerade etwas, das im klassischen Modus Tage gedauert hätte.** Drei Iterationen sind okay.
+
 ---
 
 ## Async-spezifisch

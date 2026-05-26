@@ -54,6 +54,14 @@ Wenn unsicher → kurzer Hinweis: *"Folie 20 ist die wichtigste — ohne die wir
 
 Lass sie die Idee in 1-2 Sätzen beschreiben. Stell hier noch KEINE Schärfungsfragen — das passiert in Phase 3.
 
+### Ehrlicher Hinweis bei Wahl (b) n8n
+
+Wenn die Kollegin den n8n-Pfad gewählt hat, gib ihr DIREKT NACH der Idee-Beschreibung diesen Hinweis (verbatim oder in eigenen Worten):
+
+> *"Klingt gut. Eine ehrliche Vorbemerkung, bevor wir loslegen: Wir nutzen die n8n Community-Edition. Das heißt, ich kann den Workflow nicht direkt für dich in n8n bauen — ich erzeuge eine JSON-Datei, die du in n8n importierst. Erwarte, dass wir 2-3 Iterationen brauchen, bis der Workflow wirklich läuft. Das ist normal, das ist nicht dein Fehler — und wir machen es Schritt für Schritt zusammen. Plane lieber etwas mehr Zeit ein. Bereit?"*
+
+Erst nach Bestätigung weiter zu Phase 3.
+
 ---
 
 ## Phase 3 — Idea-Check (NEU · Pflicht vor BMAD)
