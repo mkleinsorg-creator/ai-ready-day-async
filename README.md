@@ -39,14 +39,10 @@ Was du brauchst: **Geduld mit dir selbst.** Die Konzepte sind ungewohnt, nicht s
 Drück `Cmd + Leertaste`, tipp `Terminal`, drück Enter.
 Ein schwarzes Fenster geht auf. **Hier passiert nur das Setup** — danach arbeitest du komplett in der Claude Desktop App.
 
-### 2. Diese beiden Befehle einzeln reinkopieren und Enter drücken
+### 2. Diesen Befehl reinkopieren und Enter drücken
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh
-```
-
-```bash
-bash ~/bootstrap.sh
+curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh && bash ~/bootstrap.sh
 ```
 
 Das Script richtet dir alles ein und erklärt dabei, was es tut.

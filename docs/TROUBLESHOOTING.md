@@ -78,8 +78,7 @@ Wenn `brew install` bei "Updating Homebrew..." hängt, einfach `Ctrl + C` drück
 Kein Drama. Lauf ihn einfach nochmal — das Script ist so gebaut, dass es zweimal hintereinander laufen darf, ohne kaputtzugehen.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh
-bash ~/bootstrap.sh
+curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh && bash ~/bootstrap.sh
 ```
 
 ---

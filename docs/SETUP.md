@@ -73,14 +73,10 @@ Du siehst jetzt ein Fenster, in dem dein Benutzername steht. Genau richtig.
 
 ## 5. Bootstrap ausführen
 
-Kopier diese **beiden Befehle einzeln** ins Terminal, jeweils mit Enter:
+Kopier diesen Befehl ins Terminal, drück Enter:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh
-```
-
-```bash
-bash ~/bootstrap.sh
+curl -fsSL https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.sh -o ~/bootstrap.sh && bash ~/bootstrap.sh
 ```
 
 Das Script erklärt unterwegs, was es macht. Lies mit — das hilft beim Verstehen.
