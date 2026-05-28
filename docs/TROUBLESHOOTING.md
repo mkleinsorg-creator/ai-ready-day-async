@@ -161,6 +161,47 @@ Das ist absolut normal. Bitte glaub uns das.
 
 ---
 
+## Windows-spezifisch
+
+### "winget ist nicht installiert"
+
+winget kommt mit dem **App Installer** aus dem Microsoft Store. Lösung:
+- Microsoft Store öffnen (Windows-Taste → `Store` tippen)
+- "App Installer" suchen → aktualisieren oder installieren
+- PowerShell **schließen und neu öffnen**
+- Bootstrap erneut starten
+
+### "Die Ausführung von Skripten ist auf diesem System deaktiviert"
+
+Standard-PowerShell-Sicherheitseinstellung. Lösung:
+- Den Bootstrap immer mit `-ExecutionPolicy Bypass` starten (steht so im Setup-Befehl)
+- Falls trotzdem Fehler: PowerShell als Administrator öffnen und einmalig ausführen:
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+
+### Bootstrap-Script wirft Umlaut-Fehler / "Unerwartetes Token"
+
+Sollte mit dem aktuellen Script nicht mehr passieren (ASCII-only). Falls doch:
+- Sicherstellen, dass du `bootstrap.ps1` frisch geladen hast (Befehl 1 nochmal)
+- Falls weiter Fehler: Screenshot an Max via Slack-DM
+
+### `gh`-Browser-Login öffnet sich nicht
+
+URL aus dem Code-Block kopieren und manuell im Browser einfügen. Der Code aus dem PowerShell-Fenster wird im Browser-Formular abgefragt.
+
+### Claude-Code-Fenster geht mit Ctrl+3 nicht auf
+
+Das Tastenkürzel kann auf Windows abweichen. Probier:
+- `Ctrl + 3`
+- `Alt + 3`
+- `Ctrl + Shift + 3`
+- Oder im Menü der Claude Desktop App nach "Code" oder "Developer" suchen
+
+Wenn nichts klappt: Max via Slack-DM.
+
+---
+
 ## Async-spezifisch
 
 ### "Ich bin festgefahren, aber Max ist nicht erreichbar"

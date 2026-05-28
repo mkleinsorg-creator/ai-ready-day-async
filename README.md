@@ -32,7 +32,14 @@ Was du brauchst: **Geduld mit dir selbst.** Die Konzepte sind ungewohnt, nicht s
 
 ---
 
-## Start in 3 Schritten
+## Welches Betriebssystem hast du?
+
+- 🍎 **Mac** → folge der Anleitung unten (oder ausführlich in `docs/SETUP.md`)
+- 🪟 **Windows** → springe direkt zu `docs/SETUP-WINDOWS.md`
+
+---
+
+## Start in 3 Schritten (Mac)
 
 ### 1. Terminal öffnen (nur für das einmalige Setup)
 
@@ -64,6 +71,27 @@ Lies @~/ai-ready-day-async/prompts/00-router.md vollständig und folge diesen An
 3. **Idea-Check** — die 6 Fragen aus Folie 20 gehen wir gemeinsam durch
 4. Übergabe an **BMAD** — ein Team aus sieben Spezialisten, das mit dir baut
 5. Schritt für Schritt zur fertigen Web-App oder zum laufenden n8n-Workflow
+
+---
+
+## Start in 3 Schritten (Windows)
+
+Vollständige Anleitung: **[docs/SETUP-WINDOWS.md](docs/SETUP-WINDOWS.md)**
+
+Kurzfassung:
+
+1. PowerShell öffnen (Windows-Taste → `PowerShell` tippen → Enter)
+2. Diese beiden Befehle nacheinander reinkopieren:
+
+```powershell
+irm https://raw.githubusercontent.com/mkleinsorg-creator/ai-ready-day-async/main/bootstrap.ps1 -OutFile $env:TEMP\bootstrap.ps1
+```
+
+```powershell
+powershell -ExecutionPolicy Bypass -File $env:TEMP\bootstrap.ps1
+```
+
+3. Wenn das Script `[OK] Fertig` sagt: Claude Desktop App öffnen → `Ctrl + 3` → Master-Prompt-Aufruf (siehe `docs/SETUP-WINDOWS.md`)
 
 ---
 
